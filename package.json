@@ -1,0 +1,26 @@
+{
+  "name": "compassion-kb",
+  "version": "1.0.0",
+  "description": "MCP Server for Compassio Knowledge Base — local deployment with Cloudflare Tunnel",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianshih04/Compassion-kb.git"
+  },
+  "keywords": ["mcp", "knowledge-base", "cloudflare-tunnel", "compassio", "ai"],
+  "author": "Brian Shih <brianshih04@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianshih04/Compassion-kb/issues"
+  },
+  "homepage": "https://github.com/brianshih04/Compassion-kb#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "better-sqlite3": "^11.8.1",
+    "zod": "^3.25.67"
+  }
+}
